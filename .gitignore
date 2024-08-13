@@ -1,0 +1,21 @@
+# Ignore .env file for sensitive environment variables
+.env
+
+# Ignore Dockerfile to prevent sensitive data from being committed
+Dockerfile
+
+# Ignore build scripts
+build.sh
+
+# Ignore Docker Compose file if you don't want to include it in version control
+docker-compose.yml
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+.env/
