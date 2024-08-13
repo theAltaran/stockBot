@@ -82,8 +82,8 @@ def check_stock():
 
     return stock_status
 
-# Background task that runs every 15 minutes
-@tasks.loop(minutes=15)
+# Background task that runs every 60 minutes
+@tasks.loop(minutes=60)
 async def stock_monitor():
     global previous_stock
     channel = bot.get_channel(channel_id)
