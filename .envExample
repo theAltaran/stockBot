@@ -1,5 +1,5 @@
-DISCORD_TOKEN=                                                    #Discord Token Goes Here
-CHANNEL_ID=                                                       #Discord CHANNEL_ID
-WC_API_URL=                                                       #https://yourStoreaddress.com/wp-json/wc/v3/products
-WC_CONSUMER_KEY=                                                  #WC Consumer Key from woo commerce rest api
-WC_CONSUMER_SECRET=                                               #WC Consumer Secret from woo commerce rest api 
+DISCORD_TOKEN=            #Discord Token Goes Here
+CHANNEL_ID=               #Discord CHANNEL_ID
+WC_API_URL=               #https://yourStoreaddress.com/wp-json/wc/v3/products
+WC_CONSUMER_KEY=          #WC Consumer Key from woo commerce rest api
+WC_CONSUMER_SECRET=       #WC Consumer Secret from woo commerce rest api 
